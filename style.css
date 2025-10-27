@@ -150,6 +150,108 @@ footer {
     padding: 2rem 0;
 }
 
+footer a {
+    color: #9bd0ff;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+/* Policy Page */
+main.policy {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 80px 20px 120px;
+    color: #2c3e50;
+}
+
+.policy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.policy-home {
+    display: inline-block;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+
+.policy-app {
+    margin-top: 0.75rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #475569;
+}
+
+.policy-content {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 18px;
+    box-shadow: 0 12px 32px rgba(44, 62, 80, 0.12);
+}
+
+.policy-content h1 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+.policy-content h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+.policy-content h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: #334155;
+}
+
+.policy-content p {
+    margin-bottom: 1.1rem;
+    color: #4b5563;
+}
+
+.policy-content ul,
+.policy-content ol {
+    margin: 0 0 1.5rem 1.5rem;
+    color: #4b5563;
+}
+
+.policy-content li {
+    margin-bottom: 0.75rem;
+}
+
+.policy-content hr {
+    border: none;
+    height: 1px;
+    background: #e2e8f0;
+    margin: 2rem 0;
+}
+
+.policy-footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
@@ -167,4 +269,26 @@ footer {
     .service-grid {
         grid-template-columns: 1fr;
     }
+
+    main.policy {
+        padding: 60px 16px 100px;
+    }
+
+    .policy-content {
+        padding: 2rem;
+        border-radius: 14px;
+    }
+
+    .policy-content h1 {
+        font-size: 2rem;
+    }
+
+    .policy-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .policy-app {
+        font-size: 1.5rem;
+    }
+
 }
